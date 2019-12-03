@@ -47,7 +47,7 @@ let createTimeInEvent = function(stamp) {
     return this
 }
 
-const createTimeOutEvent = stamp => {
+const createTimeOutEvent = function(stamp){
     let [date, hour] = stamp.split(" ")
 
     this.timeOutEvents.push({
